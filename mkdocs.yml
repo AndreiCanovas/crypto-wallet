@@ -1,0 +1,23 @@
+site_name: crypto-wallet
+
+nav:
+  - Home: index.md 
+  - Docs: 
+    - wallet/main.md
+    - wallet/utils.md
+
+theme: 
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: 'off'
+    - scheme: slate
+      toggle: 
+        icon: material/weather-sunny
+        name: 'on'
+
+plugins:
+  - search
+  - mkdocstrings
